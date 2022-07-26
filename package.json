@@ -1,0 +1,21 @@
+{
+  "name": "crud-profesor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "profesor.js",
+  "scripts": {
+    "start": "nodemon profesor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

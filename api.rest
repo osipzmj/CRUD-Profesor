@@ -1,0 +1,35 @@
+//Creación del API donde se realizan las peticiones
+//Seleccionar todos los profesores
+###
+GET http://localhost:9000/api
+
+//Seleccionar un profesor
+###
+GET http://localhost:9000/api/1
+
+//Agregar un profesor
+###
+POST http://localhost:9000/api
+Content-Type: application/json
+
+{
+    "nombre": "Paola",
+    "apellidos": "Carrillo Gomez",
+    "titulo": "Licenciada en Admnistración de Empresas",
+    "area": "Economico-Adminsitrativo",
+    "materias": "Introduccion a Recursos Humanos"
+
+}
+
+//Actualizar un profesor
+###
+PUT http://localhost:9000/api/3
+Content-Type: application/json
+
+{
+   "materias": "Análisis Económico Internacional"
+}
+
+//Eliminar un profesor
+###
+DELETE http://localhost:9000/api/2
