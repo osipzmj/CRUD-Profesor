@@ -13,23 +13,23 @@ POST http://localhost:9000/api
 Content-Type: application/json
 
 {
-    "nombre": "Paola",
-    "apellidos": "Carrillo Gomez",
-    "titulo": "Licenciada en Admnistración de Empresas",
-    "area": "Economico-Adminsitrativo",
-    "materias": "Introduccion a Recursos Humanos"
+    "nombre": "Javier ",
+    "apellidos": "Torres Yañez",
+    "titulo": "Ingenieria en Sistemas Computacionales",
+    "area": "TICS",
+    "materias": "Base de datos"
 
 }
 
 //Actualizar un profesor
 ###
-PUT http://localhost:9000/api/3
+PUT http://localhost:9000/api/5
 Content-Type: application/json
 
 {
-   "materias": "Análisis Económico Internacional"
+   "nombre": "Alejandra Suarez"
 }
 
 //Eliminar un profesor
 ###
-DELETE http://localhost:9000/api/2
+DELETE http://localhost:9000/api/5
